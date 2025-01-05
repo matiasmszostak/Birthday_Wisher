@@ -32,7 +32,7 @@ if day_of_week == 6:
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
                             to_addrs="appdetesting@yahoo.com",
-                            msg=f"Subject:The quote of the week\n\n {random_quote}.")
+                            msg=f"Subject:Sunday Motivation\n\n {random_quote}.")
 
 
 
